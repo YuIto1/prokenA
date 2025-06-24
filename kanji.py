@@ -1,7 +1,7 @@
 import csv #csvファイル入力と過程
 import unicodedata #符号化文字集合をunicodeとする 便利ライブラリ
 
-def is_kanji(char):
+def is_kanji(char): #判別する関数
     try:
         return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(char, '')  #unicode.nameにて漢字ならCJK ~~ が出力される
 
