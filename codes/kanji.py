@@ -1,3 +1,8 @@
+# 文章中の漢字の個数と割合を表示するプログラム
+## 　csvファイルに文章があると仮定している。
+
+
+
 import csv #csvファイル入力と過程
 import unicodedata #符号化文字集合をunicodeとする 便利ライブラリ
 
